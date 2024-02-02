@@ -10,8 +10,8 @@ networks:
       parent: enp0s3
     ipam: 
       config:
-        - subnet: "192.168.1.0/24"
-          gateway: "192.168.1.1"
+        - subnet: "192.168.0.0/24"
+          gateway: "192.168.0.1"
 services:
 
   openmeetings:
