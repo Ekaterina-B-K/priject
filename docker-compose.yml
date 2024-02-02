@@ -41,7 +41,7 @@ services:
     container_name: kurento
     image: kurento/kurento-media-server:6
     networks:
-      -	net
+      - net
     restart: always
 
   postgresql:
@@ -55,4 +55,4 @@ services:
       - POSTGRES_DB=openmeetings
     restart: always
     networks:
-      -	net  
+      - net  
